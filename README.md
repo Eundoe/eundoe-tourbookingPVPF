@@ -16,7 +16,8 @@
 
 ## 프로젝트 설명
 ### 프로젝트 계획서 
-> 추후정추가예정
+> [계획서 열람하기](https://github.com/Eundoe/eundoe-tourbookingPVPF/files/10907848/C.Companay.Project.Simulation.Planning_JAEHO.CHO.230302.pdf)
+
 
 ### 헤더(Header) & 푸터(Footer)
 * 헤더와 푸터를 별도 Component로 만들어서 작성했습니다.
