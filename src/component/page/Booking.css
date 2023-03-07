@@ -1,0 +1,415 @@
+@charset "UTF-8";
+
+
+article#book{
+  box-sizing: border-box;
+  width: 100%;
+  /* width: 1400px; */
+  height: calc(100vh - 90px - 56px);
+  padding: 20px 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+
+article#book>h2{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* serach and sort */
+
+div#search{
+  width: 99.28571428571429%;
+  /* width: 1390px; */
+  margin: 0 auto 20px;
+  background-color: rgb(176, 229, 250);
+  padding: 30px 0;
+  border-radius: 10px;
+}
+
+div#search fieldset{
+  width: 80%;
+  /* width: 800px; */
+  position: relative;
+  margin: 0 auto;
+}
+div#search fieldset>label{
+  display: block;
+  line-height: 26px;
+  width: 50px;
+  position: absolute;
+  left: 10px; top: 2px;
+}
+div#search fieldset>label>svg{
+  display: block;
+  font-size: 22px;
+}
+
+div#search fieldset>input{
+  width: 100%;
+  height: 20px;
+  text-indent: 70px;
+}
+
+div#sort{
+  width: 80%;;
+  /* width: 800px; */
+  margin: 10px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+div#sort>ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+div#sort>ul>li{
+  padding: 1px;
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+div#sort>ul>li>svg{
+  cursor: pointer;
+}
+
+
+div#bookwrap{
+  width: 99.28571428571429%;
+  /* width: 1390px; */
+  margin: 0 auto;
+  padding: 20px 0;
+  border-radius: 10px;
+  background-color: rgb(249, 208, 255);
+
+}
+
+div#bookwrap>ul{
+  width: 90%;;
+  /* width: 800px; */
+  margin: 0 auto;
+}
+div#bookwrap>ul>li{
+  width: 100%;
+  margin: 10px 0;
+  background-color: #fff;
+  border: 2px dotted #000;
+  
+
+}
+div#bookwrap>ul>li>figure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 5px;
+  height: 150px;
+}
+
+div#bookwrap>ul>li>figure>p{
+  width: 150px;
+  height: auto;
+  margin:  0 10px;
+  text-align: center;
+}
+
+div#bookwrap>ul>li>figure>p>img{
+  
+  max-width: 150px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+}
+
+div#bookwrap>ul>li>figure>figcaption{
+  width: 500px;
+  margin: 0 10px;
+  position: relative;
+}
+
+div#bookwrap>ul>li>figure>figcaption>dl{
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
+
+div#bookwrap>ul>li>figure>figcaption>dl>dt{
+  width: 45%;
+}
+
+div#bookwrap>ul>li>figure>figcaption>dl>dd{
+  width: 45%;
+}
+
+div#bookwrap>ul>li>figure>figcaption>p{
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  position: absolute;
+  right: -50px; top: 50%;
+  margin-top: -25px;
+  text-align: center;
+}
+div#bookwrap>ul>li>figure>figcaption>p>span{
+  font-size: 30px;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+div#reserve{
+  display: none;
+  padding: 80px 40px;
+  background-color: #b1b1b1;
+  line-height: 1.5em;
+  font-size: 18px;
+}
+
+div#reserve fieldset{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div#reserve fieldset>ul{
+  width: 40%;
+  margin: 0 10px;
+}
+div#reserve fieldset>ul>li{
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+div#reserve fieldset>ul>li>label{
+  display: block;
+}
+div#reserve fieldset>ul>li>input{
+  display: block;
+  width: 80%;
+  height: 18px;
+}
+
+div#reserve fieldset>ul>li>button{
+  font-size: 18px;
+  background-color: transparent;
+  vertical-align: middle;
+  margin: 0 5px;
+  text-align: center;
+}
+
+div#reserve fieldset>ul>li>span{
+  font-size: 18px;
+  margin: 0 5px;
+}
+
+div#reserve fieldset>div{
+  width: 40%;
+  margin: 0 10px;
+}
+
+div#reserve fieldset>div>dl{
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+div#reserve fieldset>div>dl>dt{
+  width: 20%;
+}
+div#reserve fieldset>div>dl>dd{
+  width: 70%;
+}
+
+div#reserve fieldset>div>button{
+  display: block;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+div#reserve fieldset>div>button:active{
+  background-color: black;
+  color: #fff;
+}
+
+
+@media screen and (min-width:1350px) {
+  div#search{
+    width: 1390px;
+  }
+  div#bookwrap{
+    width: 1390px;
+
+  
+  }
+
+
+
+}
+@media screen and (min-width:1090px) and (max-width:1349px) {
+
+
+}
+@media screen and (min-width:980px) and (max-width:1089px) {
+
+
+}
+@media screen and (min-width:580px) and (max-width:979px) {
+
+  div#bookwrap{
+    width: 100%;
+  }
+
+  div#search fieldset{
+    width: 95%;
+  }
+  div#sort{
+    width: 95%;;
+  }
+  div#bookwrap>ul{
+    width: 100%
+  }
+
+  div#bookwrap>ul>li{
+    border: none;
+  }
+  div#bookwrap>ul>li>figure{
+    height: auto;
+
+  }
+
+  div#bookwrap>ul>li>figure>p{
+    width: 15.30612244897959%;
+    margin: 0 10px;
+  }
+
+  div#bookwrap>ul>li>figure>p>img{
+    max-width: 100%;
+  }
+
+  div#bookwrap>ul>li>figure>figcaption{
+    width: 51.02040816326531%
+  }
+  div#bookwrap>ul>li>figure>figcaption>dl{
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  div#bookwrap>ul>li>figure>figcaption>dl>dt{
+    width: 100%;
+  }
+  
+  div#bookwrap>ul>li>figure>figcaption>dl>dd{
+    width: 100%;
+    text-align: center;
+  }
+  
+  div#bookwrap>ul>li>figure>figcaption>p{
+    right: -70px; top: 50%;
+    margin-top: -25px;
+  }
+
+}
+@media screen and (min-width:5px) and (max-width:579px) {
+
+
+  
+  div#search fieldset{
+    width: 90%;
+  }
+  div#sort{
+    width: 90%;;
+  }
+
+  div#bookwrap{
+    width: 100%;
+  }
+
+  div#bookwrap>ul{
+    width: 100%
+  }
+  div#bookwrap>ul>li{
+    border: none;
+  }
+  div#bookwrap>ul>li>figure{
+    height: auto;
+  }
+
+  div#bookwrap>ul>li>figure>p{
+    width: 30%;
+    margin: 0 10px;
+
+  }
+
+  div#bookwrap>ul>li>figure>p>img{
+    max-width: 100%;
+  }
+
+  div#bookwrap>ul>li>figure>figcaption{
+    box-sizing: border-box;
+    width: 60%;
+    margin: 0;
+    position: relative;
+    height: 170px;
+    padding-top: 30px;
+  }
+  div#bookwrap>ul>li>figure>figcaption>dl{
+    font-size: 18px;
+    justify-content: flex-start;
+
+  }
+  div#bookwrap>ul>li>figure>figcaption>dl>dt{
+    width: auto;
+    padding-right: 5px;
+  }
+  
+  div#bookwrap>ul>li>figure>figcaption>dl>dd{
+    width: auto;
+    text-align: center;
+  }
+  
+  div#bookwrap>ul>li>figure>figcaption>p{
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    right: 10px; top: 80%;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  div#bookwrap>ul>li>figure>figcaption>p>span{
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+
+  div#reserve fieldset{
+    display: block;
+  }
+
+  div#reserve fieldset>ul{
+    width: 90%;
+    margin: 0 auto;
+  }
+  div#reserve fieldset>ul>li>label{
+    display: block;
+    margin-bottom: 10px;
+  }
+  div#reserve fieldset>ul>li>input{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  div#reserve fieldset>div{
+    width: 100%;
+    margin: 0 10px;
+  }
+
+
+}

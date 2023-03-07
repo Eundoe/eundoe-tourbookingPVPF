@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# 조재호 포트폴리오(PF-3)
+## 소개
+> 가상클라이언트 C를 가정하여 만든 개인 포트폴리오 사이트입니다. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
+## 배포링크
+> 배포방식은 AWS: S3의 간이 배포를 이용하였습니다.
 
-## Available Scripts
+> [바로가기](http://eundoe-tourbooking.s3-website.ap-northeast-2.amazonaws.com)
 
-In the project directory, you can run:
+---
+## 개발 도구 및 환경
+> 개발환경 : VScode, npm, React-native
 
-### `npm start`
+> 개발도구 : HTML, CSS, Javascript, jQuery, React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 프로젝트 설명
+### 프로젝트 계획서 
+> 추후정추가예정
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 헤더(Header) & 푸터(Footer)
+* 헤더와 푸터를 별도 Component로 만들어서 작성했습니다.
 
-### `npm test`
+### 메인페이지(App.js)
+1. SPA구조로 진행하기 위해 React-Router를 이용하여 제작했습니다.
+2. Booking에서 입력받은 데이터를 Confirm으로 옮기게 하기 위해서 useState를 활용했습니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 예약 페이지(Booking.js)
+1. 데이터구조는 JSON을 이용해서 상품리스트를 구현했습니다.
+2. 더보기 아이콘을 클릭시 예약할수있는 창이 슬라이드 다운되는 형태로 구현했습니다.
+3. 예약란에서 인원수, 이름, 전화번호를 입력하지 않으면 예약이 불가능하게 했습니다.
+4. 메인 카테고리에서 정렬을 할 수 있게 만들었고 서브 정렬에서 가격대별로 정렬하게 했습니다.
+5. 검색란에서는 상품이름으로 검색할 수 있게 구현했습니다.
 
-### `npm run build`
+### 조회 페이지(Confirm.js)
+1. 예약한 내용이 없다면 나타나지 않게 했습니다.
+2. 예약한 내용은 휴지통 아이콘 클릭시 삭제 되게 해두었습니다.
+3. 데이터는 useState형태로 Array형식으로 push되게 만들어놓은 상태에서 불러왔습니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+## 자기평가
+### 부족한 점
+1. 심플한 구조로 포트폴리오를 만들어보자는 생각에 구현한거라 디자인도 기능도 부족한 부분이 많았습니다.
+2. 조금더 빠른시일내에 완성이 가능했을텐데 속도가 다소 아쉬운 부분이있었습니다.
+3. Back-End역량이 부족해서 로그인, 회원가입등 기능을 추가하지 못했습니다. 추후 Back-End공부 후 추가하고 싶다고 생각했습니다.

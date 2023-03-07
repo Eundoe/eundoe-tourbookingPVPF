@@ -1,0 +1,14 @@
+
+
+
+footer{
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: black;
+}
+
+footer>small{
+  font-size: 14px;
+  color: #fff;
+}

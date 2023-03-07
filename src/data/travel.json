@@ -1,0 +1,162 @@
+[
+  {
+    "id" : 0,
+    "product" : "롯데월드 FreePass상품",
+    "price" : 30000,
+    "schedule" : ["월","화","수","목","금","토","일"],
+    "type" : "entertain",
+    "img" : "./Images/lotte.png"
+  },
+  {
+    "id" : 1,
+    "product" : "불국사 탐방기",
+    "price" : 25000,
+    "schedule" : ["월","화","수","목","금"],
+    "type" : "heritage",
+    "img" : "./Images/bulguk.png"
+  },
+  {
+    "id" : 2,
+    "product" : "북촌 한옥마을",
+    "price" : 27000,
+    "schedule" : ["월","수","금"],
+    "type" : "heritage",
+    "img" : "./Images/bukchon.png"
+  },
+  {
+    "id" : 3,
+    "product" : "경리단길 탐방",
+    "price" : 8000,
+    "schedule" : ["월","화","목","금"],
+    "type" : "entertain",
+    "img" : "./Images/gyunridan.png"
+  },
+  {
+    "id" : 4,
+    "product" : "경복궁 체험",
+    "price" : 15000,
+    "schedule" : ["월","화","금"],
+    "type" : "heritage",
+    "img" : "./Images/gyungbok.png"
+  },
+  {
+    "id" : 5,
+    "product" : "세븐럭 카지노",
+    "price" : 20000,
+    "schedule" : ["월","화","수","목","금","토","일"],
+    "type" : "entertain",
+    "img" : "./Images/sevenluck.png"
+  },
+  {
+    "id" : 6,
+    "product" : "조계사 템플체험",
+    "price" : 13000,
+    "schedule" : ["토","일"],
+    "type" : "heritage",
+    "img" : "./Images/jogyesa.png"
+  },
+  {
+    "id" : 7,
+    "product" : "서울랜드 일일이용권",
+    "price" : 33000,
+    "schedule" : ["월","화","수"],
+    "type" : "entertain",
+    "img" : "./Images/seouland.png"
+  },
+  {
+    "id" : 8,
+    "product" : "한양도성 따라걷기",
+    "price" : 5000,
+    "schedule" : ["월","화","수","목","금","토","일"],
+    "type" : "heritage",
+    "img" : "./Images/hanyangdo.png"
+  },
+  {
+    "id" : 9,
+    "product" : "테지움 서울",
+    "price" : 22500,
+    "schedule" : ["월","화","수","목"],
+    "type" : "entertain",
+    "img" : "./Images/tedium.png"
+  },
+  {
+    "id" : 10,
+    "product" : "현충원 방문",
+    "price" : 3500,
+    "schedule" : ["월","화","수","목","금","토","일"],
+    "type" : "heritage",
+    "img" : "./Images/hyunchungwon.png"
+  },
+  {
+    "id" : 11,
+    "product" : "홍대 즐기기",
+    "price" : 5500,
+    "schedule" : ["월","화","수","목","금","토","일"],
+    "type" : "entertain",
+    "img" : "./Images/hongdae.png"
+  },
+  {
+    "id" : 12,
+    "product" : "신촌순회 관광버스",
+    "price" : 3500,
+    "schedule" : ["월","화","수","목","금","토","일"],
+    "type" : "entertain",
+    "img" : "./Images/sinchonbus.png"
+  },
+  {
+    "id" : 13,
+    "product" : "창덕궁 야간투어",
+    "price" : 12000,
+    "schedule" : ["월","화","수","금","토","일"],
+    "type" : "heritage",
+    "img" : "./Images/changduk.png"
+  },
+  {
+    "id" : 14,
+    "product" : "남대문 시장",
+    "price" : 1500,
+    "schedule" : ["월","화","수","금"],
+    "type" : "heritage",
+    "img" : "./Images/namdaemun.png"
+  },
+  {
+    "id" : 15,
+    "product" : "예술의 전당",
+    "price" : 6500,
+    "schedule" : ["월","화","수","목","금","토","일"],
+    "type" : "entertain",
+    "img" : "./Images/yesoolstation.png"
+  },
+  {
+    "id" : 16,
+    "product" : "인사동 체험하기",
+    "price" : 8500,
+    "schedule" : ["월","화","수","목","금","토","일"],
+    "type" : "heritage",
+    "img" : "./Images/insadong.png"
+  },
+  {
+    "id" : 17,
+    "product" : "청계천 따라걷기",
+    "price" : 5500,
+    "schedule" : ["월","화","수","목","금","토","일"],
+    "type" : "entertain",
+    "img" : "./Images/chungye.png"
+  },
+  {
+    "id" : 18,
+    "product" : "서울숲 걷기",
+    "price" : 4500,
+    "schedule" : ["월","화","수","목","금","토","일"],
+    "type" : "entertain",
+    "img" : "./Images/seoulforest.png"
+  },
+  {
+    "id" : 19,
+    "product" : "남산타워 야경보기",
+    "price" : 4500,
+    "schedule" : ["월","화","수","목","금"],
+    "type" : "entertain",
+    "img" : "./Images/namsantower.png"
+  }
+]

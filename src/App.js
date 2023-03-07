@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { BrowserRouter,Route,Routes } from "react-router-dom"
+
+// component
+import Header from "./component/Header"
+import Footer from "./component/Footer"
+import Booking from "./component/page/Booking"
+import Confirm from "./component/page/Confirm"
+
+// data
+import data from './data/travel.json'
+import { useState } from "react"
+
+function App(){
+  const Basedata = data
+  const [cart,setCart] = useState([])
+
+
+  return(
+   
+    <BrowserRouter>
+     <Header/>
+      <div id="wrap">
+        <Routes>
+          <Route path="/" element = {<Booking Bdata = {Basedata} setCart = {setCart} cart = {cart}/>}/>
+          <Route path="/confirm" element = {<Confirm cart = {cart} setCart = {setCart}/>}/>
+        </Routes>
+        </div>
+
+     <Footer/>
+    </BrowserRouter>
+
+  )
 }
 
-export default App;
+
+export default App
